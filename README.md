@@ -31,7 +31,10 @@ numberList.Clear();
 ```
 ### How to Use:
 
-Call listName.Clear() where listName is the list you want to clear.
+
+Call `listName.Clear()` where `listName` is the list you want to clear.
+
+---
 
 ## 3. **Checking the Capacity of a List**
 The List<T>.Capacity property returns the number of elements that the list can hold before needing to resize.
@@ -45,7 +48,7 @@ int capacity = numberList.Capacity;
 ```
 
 ### How to Use:
-Access listName.Capacity where listName is the list whose capacity you want to check.
+Access `listName.Capacity` where `listName` is the list whose capacity you want to check.
 
 ---
 
@@ -71,12 +74,12 @@ numberList.Sort();
 // The list `numberList` is now sorted: { 1, 2, 3, 5, 8 }
 ```
 ### How to Use:
-Call Array.Sort(arrayName) for arrays or listName.Sort() for lists.
+Call `Array.Sort(arrayName)` for arrays or `listName.Sort()` for lists.
 
 ---
 
 ## 5. **Converting a List to an Array**
-You can convert a list to an array using the List<T>.ToArray() method.
+You can convert a list to an array using the `List<T>.ToArray()` method.
 
 ### Example:
 ```csharp
@@ -86,7 +89,7 @@ int[] numberArray = numberList.ToArray();
 // `numberArray` now contains the elements of `numberList` as an array
 ```
 ### How to Use:
-Call listName.ToArray() to convert the list to an array.
+Call `listName.ToArray()` to convert the list to an array.
 
 ---
 
@@ -108,10 +111,12 @@ for (int i = numberList.Count - 1; i >= 0; i--)
 // `numberList` now contains only even numbers: { 2, 4 }
 ```
 ### How to Use:
-Use a loop to check each element, and if it's odd, remove it using listName.RemoveAt(index).
+Use a loop to check each element, and if it's odd, remove it using `listName.RemoveAt(index)`.
+
+---
 
 ## 7. **Checking for a Number in a List**
-To check if a number exists in a list, use the List<T>.Contains() method.
+To check if a number exists in a list, use the `List<T>.Contains()` method.
 
 ### Example:
 ```csharp
@@ -121,6 +126,6 @@ bool containsThree = numberList.Contains(3);
 // `containsThree` will be `true` because 3 is in the list
 ```
 ### How to Use:
-Call listName.Contains(value) to check if value exists in the list.
+Call `listName.Contains(value)` to check if value exists in the list.
 
 ---
