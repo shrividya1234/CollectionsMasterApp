@@ -115,17 +115,3 @@ Use a loop to check each element, and if it's odd, remove it using `listName.Rem
 
 ---
 
-## 7. **Checking for a Number in a List**
-To check if a number exists in a list, use the `List<T>.Contains()` method.
-
-### Example:
-```csharp
-List<int> numberList = new List<int> { 1, 2, 3, 4, 5 };
-bool containsThree = numberList.Contains(3);
-
-// `containsThree` will be `true` because 3 is in the list
-```
-### How to Use:
-Call `listName.Contains(value)` to check if value exists in the list.
-
----
